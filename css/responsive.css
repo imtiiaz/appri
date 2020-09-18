@@ -1,0 +1,828 @@
+@media (min-width: 1200px) {
+    header {}
+}
+@media (min-width: 992px) and (max-width:1199px) {
+    /*=========header part========*/
+    header {}
+    /*=========banner part=======*/
+    #banner_part {
+        min-height: 915px;
+    }
+    .banner_left {
+        padding-top: 300px;
+    }
+    /*===========counter part========*/
+    #counter_part {
+        padding-top: 150px;
+    }
+    /*=====testimonial part========*/
+    .test_img_item:before {
+        height: 97px;
+        width: 97px;
+    }
+    /*======news part=====*/
+    .news_content {
+        padding: 20px;
+        text-align: center;
+    }
+    .subscription .sub_text h3 {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .available_app h3 {
+        font-size: 60px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width:991px) {
+    /*==========header=========*/
+    header {
+        background-image: -moz-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -webkit-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -ms-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        padding: 30px 20px;
+        transition: all linear .4s;
+        -webkit-transition: all linear .4s;
+        -moz-transition: all linear .4s;
+        -os-transition: all linear .4s;
+        -ms-transition: all linear .4s;
+    }
+    .menu_fix {
+        padding: 15px 20px;
+    }
+    button.navbar-toggler {
+        outline: 0;
+    }
+    .navbar-toggler i {
+        color: #fff;
+        padding: 5px 10px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
+    header .navbar-nav .nav-item .nav-link {
+        padding: 20px 0;
+    }
+    .menu_fix .navbar-nav .nav-item .nav-link {
+        padding: 20px 0;
+    }
+    .sign_in {
+        padding: 20px;
+    }
+    /*=====banner part=====*/
+    #banner_part {
+        min-height: 880px;
+    }
+    .banner_left {
+        padding-top: 280px;
+        text-align: center;
+    }
+    .banner_shape .shape_one {
+        top: 160px;
+        left: 50px;
+    }
+    .banner_shape .shape_two {
+        bottom: 70px;
+        left: 500px;
+    }
+    .banner_right {
+        display: none;
+    }
+    /*=====counter part========*/
+    #counter_part {
+        padding-top: 60px;
+    }
+    .counter_items {
+        padding-top: 40px;
+    }
+    .counter_items:after {
+        right: -15px;
+        top: 60px;
+    }
+    /*=======features part======*/
+    #features_part {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    .section_head {
+        padding-bottom: 40px;
+    }
+    .features_item {
+        padding-bottom: 40px;
+    }
+    .item_content h3 {
+        padding-bottom: 16px;
+        padding-top: 20px;
+    }
+    .item_content p {
+        padding: 0;
+    }
+    /*=======work part=====*/
+    .managment_content {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .managment_content p {
+        padding-bottom: 20px;
+    }
+    .managment_content h3 {
+        padding-bottom: 20px;
+    }
+    .how_works {
+        padding-top: 80px;
+    }
+    .how_works h3 {
+        padding: 0;
+    }
+    .how_works p {
+        padding: 15px 0;
+    }
+    /*=====price part======*/
+    #price_part {
+        padding-top: 100px;
+    }
+    .price_item {
+        margin-bottom: 30px;
+        border: none;
+        box-shadow: 0px 0px 136px 0px rgba(0, 0, 0, 0.09);
+    }
+    .price_head {
+        padding: 25px 0;
+    }
+    .price_head:after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 220px;
+        height: 2px;
+        width: 240px;
+        background: #f6f2fe;
+    }
+    .price_list ul li {
+        padding-bottom: 25px;
+    }
+    .price_btn {
+        padding-bottom: 30px;
+    }
+    /*======testimonial part=======*/
+    .testimonial_padd {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    .test_img_item:before {
+        height: 70px;
+        width: 70px;
+    }
+    #screenshot_part {
+        padding-top: 100px;
+    }
+    /*======FAQ part=======*/
+    #faq_part {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+    .test_img_item:before {
+        height: 109px;
+        width: 109px;
+    }
+    /*======news part=====*/
+    #news_part {
+        padding-top: 100px;
+    }
+    .latest_row {
+        padding-bottom: 60px;
+    }
+    .news_img {
+        margin-bottom: 100px;
+    }
+    .news_content {
+        top: 130px;
+        padding: 30px;
+        margin-top: 0;
+    }
+    .subscription .sub_text {
+        padding-bottom: 30px;
+    }
+    .subscription .sub_text h3 {
+        text-align: center;
+    }
+    .available_app {
+        text-align: center;
+    }
+}
+@media (min-width: 576px) and (max-width:767px) {
+    /*===============header===========*/
+    header {
+        background-image: -moz-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -webkit-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -ms-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        padding: 30px 20px;
+        transition: all linear .4s;
+        -webkit-transition: all linear .4s;
+        -moz-transition: all linear .4s;
+        -os-transition: all linear .4s;
+        -ms-transition: all linear .4s;
+    }
+    .menu_fix {
+        padding: 10px 10px;
+    }
+    button.navbar-toggler {
+        outline: 0;
+    }
+    .navbar-toggler i {
+        color: #fff;
+        padding: 5px 10px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
+    header .navbar-nav .nav-item .nav-link {
+        padding: 15px 17px;
+        font-size: 16px;
+    }
+    .menu_fix .navbar-nav .nav-item .nav-link {
+        padding: 15px 17px;
+        font-size: 16px;
+    }
+    .sign_in {
+        padding: 20px;
+    }
+    header .navbar-nav .sign_in a.btn {
+        font-size: 16px;
+        margin-left: 0;
+        padding: 16px 50px;
+    }
+    /*==========banner part======*/
+    #banner_part {
+        min-height: 650px;
+    }
+    #banner_part .banner_left {
+        text-align: center;
+        padding-top: 200px;
+    }
+    #banner_part .banner_left h1 {
+        font-size: 36px;
+        padding: 15px 0;
+    }
+    #banner_part .banner_left p {
+        font-size: 20px;
+        padding: 0;
+    }
+    .common_btn {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .common_btn a {
+        font-size: 14px;
+        padding: 15px 40px;
+        margin: 10px 8px;
+    }
+    .banner_shape {
+        display: none;
+    }
+    #banner_part .banner_right .app_shape_one {
+        display: none;
+    }
+    #banner_part .banner_right .app_shape_two {
+        display: none;
+    }
+    #banner_part .banner_right {
+        display: none;
+    }
+    /*========counter part===========*/
+    #counter_part {
+        padding-top: 70px;
+    }
+    .counter_items {
+        padding: 20px;
+    }
+    .counter_items:after {
+        display: none;
+    }
+    .counter_items h3 {
+        font-size: 40px;
+    }
+    .chevron_up i {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        right: 15px;
+        bottom: 20px;
+    }
+    /*===========features part===========*/
+    /*===========features part===========*/
+    #features_part {
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    .section_head {
+        padding-bottom: 40px;
+    }
+    .section_head h2 {
+        font-size: 40px;
+    }
+    .section_head p {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    .features_item {
+        padding-bottom: 40px;
+    }
+    .item_content h3 {
+        font-size: 22px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .item_content p {
+        font-size: 16px;
+    }
+    /*=============work part===========*/
+    #work_part {
+        padding-top: 70px;
+    }
+    .watch_video {
+        padding-top: 60px;
+        padding-bottom: 200px;
+    }
+    .watch_video h3 {
+        font-size: 40px;
+    }
+    .how_works {
+        padding-top: 60px;
+    }
+    .how_works p {
+        padding-bottom: 0;
+    }
+    .managment_content {
+        text-align: center;
+        padding-top: 40px;
+    }
+    .managment_content h3 {
+        font-size: 32px;
+        padding-bottom: 12px;
+    }
+    .managment_content .common_btn {
+        margin-top: 10px;
+    }
+    .managment_img {
+        padding-top: 40px;
+    }
+    /*============price part============*/
+    #price_part {
+        padding-top: 70px;
+    }
+    .price_tab {
+        padding-bottom: 30px;
+    }
+    .price_item {
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 136px 0px rgba(0, 0, 0, 0.09);
+        border: none;
+    }
+    .price_head {
+        padding: 30px 0;
+    }
+    .price_list {
+        padding-top: 30px;
+    }
+    .price_list ul li {
+        padding-bottom: 20px;
+    }
+    .price_btn {
+        padding-bottom: 30px;
+    }
+    .price_btn a {
+        padding: 17px 20px;
+    }
+    /*===========testimonial part===========*/
+    #testimonial_part {
+        margin-top: -170px;
+        padding-top: 70px;
+    }
+    .testimonial_content h3 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .testimonial_content h4 {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+    .testimonial_padd {
+        padding-bottom: 100px;
+    }
+    .test_img_item:before {
+        height: 95px;
+        width: 95px;
+    }
+    /*=============screenshot part===========*/
+    #screenshot_part {
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    /*============FAQ part===========*/
+    #faq_part {
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    .faq-accordion {
+        padding: 30px 0;
+    }
+    .accordion_item .card-header .btn {
+        padding: 20px 20px;
+        font-size: 16px;
+    }
+    .accordion_item .card-header .btn.collapsed:after {
+        position: absolute;
+        content: "+";
+        color: #fff;
+        background-image: -moz-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -webkit-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -ms-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+    }
+    .accordion_item .card-header .btn:after {
+        top: 20px;
+        right: 20px;
+    }
+    .accordion_item .card-body {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .partner_head h3 {
+        font-size: 24px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    /*============news part===========*/
+    .latest_row {
+        padding-bottom: 20px;
+    }
+    #news_part {
+        padding-top: 60px;
+    }
+    .news_img {
+        margin-bottom: 110px;
+    }
+    .news_content {
+        padding: 30px;
+        margin-top: -200px;
+    }
+    .news_content i {
+        font-size: 14px;
+        display: block;
+    }
+    .news_content i span {
+        color: #c8c3c3;
+        padding: 0 0px 10px 10px;
+        display: inline-block;
+    }
+    .news_content p {
+        font-size: 16px;
+    }
+    .subscription {
+        padding: 50px 0;
+    }
+    .subscription .sub_text h3 {
+        font-size: 32px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+    .subscription form {
+        text-align: center;
+    }
+    .subscription form input {
+        font-size: 14px;
+        padding: 20px 29px;
+    }
+    .subscription form .form_btn {
+        position: unset;
+        padding: 20px 30px;
+        margin-top: 15px;
+    }
+    .available_app {
+        padding: 50px 0 40px 0;
+    }
+    .available_app h3 {
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .available_app img {
+        margin: 10px 0;
+    }
+    /*=========footer part=========*/
+    footer p {
+        padding: 30px 0;
+        font-size: 14px;
+        font-weight: 500;
+        color: #38363d;
+        border-top: 1px solid #e5e5e5;
+    }
+}
+@media (max-width: 575px) {
+    /*============header==========*/
+    header {
+        background-image: -moz-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -webkit-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -ms-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        padding: 30px 20px;
+        transition: all linear .4s;
+        -webkit-transition: all linear .4s;
+        -moz-transition: all linear .4s;
+        -os-transition: all linear .4s;
+        -ms-transition: all linear .4s;
+    }
+    .menu_fix {
+        padding: 10px 20px;
+    }
+    button.navbar-toggler {
+        outline: 0;
+    }
+    .navbar-toggler i {
+        color: #fff;
+        padding: 5px 10px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
+    header .navbar-nav .nav-item .nav-link {
+        padding: 15px 17px;
+        font-size: 16px;
+    }
+    .menu_fix .navbar-nav .nav-item .nav-link {
+        padding: 15px 17px;
+        font-size: 16px;
+    }
+    .sign_in {
+        padding: 20px;
+    }
+    header .navbar-nav .sign_in a.btn {
+        font-size: 16px;
+        margin-left: 0;
+        padding: 16px 50px;
+    }
+    /*============banner part===========*/
+    #banner_part {
+        min-height: 550px;
+    }
+    #banner_part .banner_left {
+        padding-top: 190px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    #banner_part .banner_left h1 {
+        font-size: 36px;
+        padding: 15px 0;
+    }
+    #banner_part .banner_left p {
+        font-size: 20px;
+        padding: 0;
+    }
+    .common_btn {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .common_btn a {
+        font-size: 14px;
+        padding: 15px 40px;
+        margin: 10px 8px;
+    }
+    .banner_shape {
+        display: none;
+    }
+    #banner_part .banner_right .app_shape_one {
+        display: none;
+    }
+    #banner_part .banner_right .app_shape_two {
+        display: none;
+    }
+    #banner_part .banner_right {
+        display: none;
+    }
+    /*========counter part===========*/
+    #counter_part {
+        padding-top: 70px;
+    }
+    .counter_items {
+        padding: 10px;
+    }
+    .counter_items:after {
+        display: none;
+    }
+    .counter_items h3 {
+        font-size: 40px;
+    }
+    .chevron_up i {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        right: 15px;
+        bottom: 20px;
+    }
+    /*==========features part============*/
+    #features_part {
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    .section_head {
+        padding-bottom: 40px;
+    }
+    .section_head h2 {
+        font-size: 40px;
+    }
+    .section_head p {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    .item_content h3 {
+        font-size: 22px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .item_content p {
+        font-size: 16px;
+    }
+    /*==========work part============*/
+    #work_part {
+        padding-top: 70px;
+    }
+    .watch_video {
+        padding-top: 60px;
+        padding-bottom: 200px;
+    }
+    .watch_video h3 {
+        font-size: 40px;
+    }
+    .how_works {
+        padding-top: 60px;
+    }
+    .how_works p {
+        padding-bottom: 0;
+    }
+    .managment_content {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .managment_content h3 {
+        font-size: 32px;
+        padding-bottom: 12px;
+    }
+    .managment_content .common_btn {
+        margin-top: 10px;
+    }
+    .managment_img {
+        padding-top: 30px;
+    }
+    /*============price part============*/
+    #price_part {
+        padding-top: 70px;
+    }
+    .price_tab {
+        padding-bottom: 30px;
+    }
+    .price_item {
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 136px 0px rgba(0, 0, 0, 0.09);
+        border: none;
+    }
+    .price_head {
+        padding: 30px 0;
+    }
+    .price_list {
+        padding-top: 30px;
+    }
+    .price_list ul li {
+        padding-bottom: 15px;
+    }
+    .price_btn {
+        padding-bottom: 30px;
+    }
+    .price_btn a {
+        padding: 17px 20px;
+    }
+    /*==========testimonial part============*/
+    #testimonial_part {
+        margin-top: -170px;
+        padding-top: 70px;
+    }
+    .testimonial_content h3 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .testimonial_content h4 {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+    .testimonial_padd {
+        padding-bottom: 100px;
+    }
+    .test_img_item:before {
+        display: none;
+    }
+    .test_img_item img {
+        display: inline-block;
+    }
+    /*===========screenshot part=============*/
+    #screenshot_part {
+        padding-top: 70px;
+    }
+    /*=============FAQ part==============*/
+    #faq_part {
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    .faq-accordion {
+        padding: 30px 0;
+    }
+    .accordion_item .card-header .btn {
+        padding: 20px 20px;
+        font-size: 16px;
+    }
+    .accordion_item .card-header .btn.collapsed:after {
+        position: absolute;
+        content: "+";
+        color: #fff;
+        background-image: -moz-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -webkit-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+        background-image: -ms-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+    }
+    .accordion_item .card-header .btn:after {
+        top: 20px;
+        right: 20px;
+    }
+    .accordion_item .card-body {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .partner_head h3 {
+        font-size: 24px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    /*============news part=============*/
+    .latest_row {
+        padding-bottom: 20px;
+    }
+    #news_part {
+        padding-top: 70px;
+    }
+    .news_img {
+        margin-bottom: 110px;
+    }
+    .news_content {
+        padding: 30px;
+        margin-top: -200px;
+    }
+    .news_content i {
+        font-size: 14px;
+        display: block;
+    }
+    .news_content i span {
+        color: #c8c3c3;
+        padding: 0 0px 10px 10px;
+        display: inline-block;
+    }
+    .news_content p {
+        font-size: 16px;
+    }
+    .subscription {
+        padding: 40px 0;
+    }
+    .subscription .sub_text h3 {
+        font-size: 32px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+    .subscription form {
+        text-align: center;
+    }
+    .subscription form input {
+        font-size: 14px;
+        padding: 20px 29px;
+    }
+    .subscription form .form_btn {
+        position: unset;
+        padding: 20px 30px;
+        margin-top: 15px;
+    }
+    .available_app {
+        padding: 50px 0 40px 0;
+    }
+    .available_app h3 {
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .available_app img {
+        margin: 10px 0;
+    }
+    /*=======footer part===========*/
+    footer p {
+        padding: 30px 0;
+        font-size: 14px;
+        font-weight: 500;
+        color: #38363d;
+        border-top: 1px solid #e5e5e5;
+    }
+}
